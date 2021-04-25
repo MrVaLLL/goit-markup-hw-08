@@ -1,0 +1,11 @@
+.footer-container__list {
+  display: block;
+  margin-right: 30px;
+  -ms-flex-preferred-size: calc((50% - 45px) / 2);
+      flex-basis: calc((50% - 45px) / 2);
+}
+
+.footer-container__list:nth-child(2) {
+  margin-right: 0;
+}
+/*# sourceMappingURL=.footer.css.map */
