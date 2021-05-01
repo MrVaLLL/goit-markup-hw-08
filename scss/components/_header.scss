@@ -1,6 +1,8 @@
 .page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
+  @media skreen and (min-width: $mobile) {
+  }
 }
 
 .navigation {

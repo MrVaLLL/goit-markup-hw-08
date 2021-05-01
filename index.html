@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudioooo</title>
+    <title>WebStudio</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="./js/custom.js" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка-->
-    <header class="page-header">
+    <!-- <header class="page-header">
       <div class="container navigation">
         <nav class="page-header__nav">
           <a class="logo" href="./index.html"> <span class="logo__web">Web</span><span class="logo__studio">Studio</span> </a>
@@ -51,26 +53,28 @@
             </a>
           </li>
         </ul>
+        <button class="mobile-menu-btn">
+          <svg width="40" height="40">
+            <use href=""></use>
+          </svg>
+        </button>
       </div>
-    </header>
+    </header> -->
 
     <!--неповторяющая информ-->
     <main class="main-container">
       <!--SLOGAN-->
       <section class="slogan overlay">
-        <div class="container">
-          <h1 class="slogan__text animate__fadeInDown">Эффективные решения для вашего бизнеса</h1>
-          <button data-modal-open class="btn" type="button">
-            <span class="btn__text">Заказать услугу</span>
-          </button>
-        </div>
+        <h1 class="slogan__text animate__fadeInDown">Эффективные решения для вашего бизнеса</h1>
+        <button data-modal-open class="btn" type="button">
+          <span class="btn__text">Заказать услугу</span>
+        </button>
       </section>
 
-      <!--Основные этапы features (убрать заголовок "Основные этапы" потом в СSS)-->
+      <!-- Основные этапы features (убрать заголовок "Основные этапы" потом в СSS)-->
       <section class="section features">
         <div class="container">
           <h2 class="visually-hidden">Основsные этапы</h2>
-          <!--  Подзаголовок -->
 
           <ul class="features-list">
             <li class="features-list__item antenna">
@@ -120,7 +124,7 @@
       <section class="section working">
         <div class="container">
           <h2 class="working__title">Чем мы занимаемся</h2>
-          <!-- Изображение занятий -->
+         
           <ul class="working-product">
             <li class="working-product__foto animate__zoomInLeft">
               <p class="working-product__text">Десктопные приложения</p>
@@ -140,10 +144,10 @@
       </section>
 
       <!--Наша команда-->
-      <section class="section command">
+       <section class="section command">
         <div class="container">
           <h2 class="command__title">Наша команда</h2>
-          <!-- секция людей -->
+         
           <ul class="command-set">
             <li class="command-set__item">
               <img class="command-set__img animate__bounceInLeft" src="./images/people/img1.jpg" alt="Игорь Демьяненко" width="270" />
@@ -366,7 +370,7 @@
     </main>
 
     <!--Подвал-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-container__list">
           <a class="footer-container__link" href="./index.html"> <span class="footer-container__link--accent">Web</span><span class="footer-container__link--secondary">Studio</span> </a>
@@ -436,8 +440,8 @@
           </form>
         </div>
       </div>
-    </footer>
-    <!-- Всплывающее окно заказать услугу -->
+    </footer> -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close" data-modal-close>

@@ -60,10 +60,23 @@
 }
 
 .footer-cards {
-  display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
 }
 
 .footer-container__link {
