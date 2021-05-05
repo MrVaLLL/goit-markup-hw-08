@@ -47,11 +47,13 @@
 }
 
 .command-set__item .command-set__img {
-  animation-duration: 3000ms;
-  animation-timing-function: linear;
-  animation-delay: 13000ms;
-  animation-iteration-count: 3;
-  animation-direction: alternate;
+  @media screen and (min-width: 1200px) {
+    animation-duration: 3000ms;
+    animation-timing-function: linear;
+    animation-delay: 13000ms;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
 }
 
 /* Описание работы desc */

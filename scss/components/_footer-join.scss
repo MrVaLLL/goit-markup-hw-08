@@ -2,6 +2,16 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 780px), screen and (min-width: 1199px) {
+    margin-bottom: 0;
+  }
+  
+
   &__list {
     border-radius: 50%;
     width: 44px;
@@ -10,6 +20,7 @@
     flex-basis: calc((100% - 10px * 4) / 4);
     margin-right: 10px;
   }
+  
   &__link {
     display: flex;
     justify-content: center;
