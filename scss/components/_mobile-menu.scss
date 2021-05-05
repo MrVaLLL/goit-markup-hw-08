@@ -47,12 +47,12 @@
 }
 
 .mobile-menu__open {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   border: none;
   margin-left: auto;
   cursor: pointer;
-  padding: 20px 0;
+  
   z-index: 105;
   background-color: #ffffff;
   &:hover,
