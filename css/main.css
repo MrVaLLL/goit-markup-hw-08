@@ -120,7 +120,7 @@ img {
 .btn__text {
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.89;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -379,7 +379,7 @@ img {
   margin-left: auto;
   cursor: pointer;
   z-index: 105;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .mobile-menu__open:hover, .mobile-menu__open:focus {
