@@ -20,13 +20,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
- 
 }
+
 .mob-menu.is-open {
   left: 0;
- 
- 
 }
 
 .icon-close {
@@ -79,6 +76,9 @@
 
   &:focus,
   &:hover {
+    color: $link-color;
+  }
+  &.current {
     color: $link-color;
   }
 }
