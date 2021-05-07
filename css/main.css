@@ -527,30 +527,33 @@ img {
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .overlay {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/mobile/header@2x.jpg");
+    background-size: 480px 400px;
   }
 }
 
-@media screen and (min-width: 527px) {
+@media screen and (min-width: 768px) {
   .overlay {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/tablet/header.jpg");
   }
 }
 
-@media screen and (min-width: 527px) and (min-device-pixel-ratio: 2), screen and (min-width: 527px) and (min-resolution: 192dpi), screen and (min-width: 527px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .overlay {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/tablet/header@2x.jpg");
+    background-size: 768px 400px;
   }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1200px) {
   .overlay {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/desktop/header.jpg");
   }
 }
 
-@media screen and (min-width: 1020px) and (min-device-pixel-ratio: 2), screen and (min-width: 1020px) and (min-resolution: 192dpi), screen and (min-width: 1020px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .overlay {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/desktop/header@2x.jpg");
+    background-size: 1600px 600px;
   }
 }
 
@@ -718,11 +721,18 @@ img {
 .command__title {
   margin-bottom: 30px;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+@media screen and (min-width: 1200px) {
+  .command__title {
+    font-size: 36px;
+    line-height: 1.17;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -746,6 +756,9 @@ img {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.command-set__item:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -851,12 +864,19 @@ img {
 
 .clients-title {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1199.98px) {
+  .clients-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .clients-cards {
