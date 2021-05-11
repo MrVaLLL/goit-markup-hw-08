@@ -42,7 +42,7 @@
 }
 
 .overlay {
-  max-width: 1600px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -55,17 +55,18 @@
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero/mobile/header@2x.jpg');
   }
   @media screen and (min-width: 768px) {
+    height: 400px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero/tablet/header.jpg');
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero/tablet/header@2x.jpg');
     }
   }
   @media screen and (min-width: 1200px) {
+    height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero/desktop/header.jpg');
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero/desktop/header@2x.jpg');
-      
     }
   }
 }
